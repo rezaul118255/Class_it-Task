@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1,
+        "title": "Cotton T-Shirt",
+        "image": "https://example.com/images/tshirt-1.jpg",
+        "variations": [
+            {
+                "type": "color",
+                "options": [
+                    "White",
+                    "Black",
+                    "Blue"
+                ]
+            },
+            {
+                "type": "size",
+                "options": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Denim Jeans",
+        "image": "https://example.com/images/jeans-2.jpg",
+        "variations": [
+            {
+                "type": "color",
+                "options": [
+                    "Light Blue",
+                    "Dark Blue",
+                    "Black"
+                ]
+            },
+            {
+                "type": "size",
+                "options": [
+                    "28",
+                    "30",
+                    "32",
+                    "34"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Leather Jacket",
+        "image": "https://example.com/images/jacket-3.jpg",
+        "variations": [
+            {
+                "type": "color",
+                "options": [
+                    "Black",
+                    "Brown"
+                ]
+            },
+            {
+                "type": "size",
+                "options": [
+                    "S",
+                    "M",
+                    "L"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Running Shoes",
+        "image": "https://example.com/images/shoes-4.jpg",
+        "variations": [
+            {
+                "type": "color",
+                "options": [
+                    "Gray",
+                    "Red",
+                    "Blue"
+                ]
+            },
+            {
+                "type": "size",
+                "options": [
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ]
+            }
+        ]
+    }
+]
