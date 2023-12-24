@@ -24,15 +24,20 @@ const ProductDetails = () => {
     }, [id]);
 
     return (
-        <div>
-            <h1>Product Details</h1>
-            <div className='mx-auto'>
+        <div className=''>
+
+            <div className='mx-auto grid h-screen place-items-center'>
+                <div className="text-center">
+                    <h3 className="text-2xl font-bold text-orange-600">Our Products</h3>
+                    <h2 className="text-5xl">Our Product Details Area</h2>
+                    <p>the majority have suffered alteration in some form, by injected humour, or randomised <br /> words which do not look even slightly believable. </p>
+                </div>
                 {productDetails ? (
-                    <div>
-                        <h2>Title: {productDetails.title}</h2>
-                        <img src={productDetails.image} alt={productDetails.title} />
-                        <h2>Title: {productDetails.color}</h2>
-                        <h2>Title: {productDetails.size}</h2>
+                    <div className=''>
+                        <h2 className='text-xl'><span className='text-xl font-bold'>Title:</span> {productDetails.title}</h2>
+                        <img className='h-72 mt-4' src={productDetails.image} alt={productDetails.title} />
+                        <h2> <span className='text-xl mt-4 font-bold'>Colour:</span> {productDetails.color}</h2>
+                        <h2> <span className='text-xl mt-4 font-bold'>Size:</span> {productDetails.size}</h2>
                     </div>
                 ) : (
                     <p>Loading product details...</p>

@@ -5,7 +5,7 @@ import { useContext } from "react";
 import { getAuth, signOut } from "firebase/auth";
 import app from "../../../Firebase/firebase.config";
 import { Button } from "react-bootstrap";
-import logo from "../../../assets/image/3.jpg"
+// import logo from "../../../assets/image/3.jpg"
 import { FaUserCircle } from 'react-icons/fa';
 
 
@@ -48,8 +48,9 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Link to='/' className="btn btn-ghost text-xl">
+                        <h1 className="text-3xl text-orange-600">REZAUL</h1>
 
-                        <img className="h-12 w-16" src={logo} alt="" />
+                        {/* <img className="h-12 w-16" src={logo} alt="" /> */}
                     </Link>
 
                 </div>
@@ -59,7 +60,7 @@ const Navbar = () => {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link>About</Link>
+                            <Link to="addProduct">Add Product</Link>
                         </li>
 
 
@@ -77,16 +78,16 @@ const Navbar = () => {
 
                         <div>
                             {user ?
-                                <Button onClick={handelLogOut} variant="primary">Logout</Button> :
+                                <Button onClick={handelLogOut} >Logout</Button> :
                                 <Link to="/login">
-                                    <Button variant="primary">Login</Button>
+                                    <Button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Login</Button>
                                 </Link>
                             }
                         </div>
                         <div>
                             {
                                 !user && <Link to="/signup">
-                                    <Button >SingUp</Button>
+                                    <Button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" >SingUp</Button>
                                 </Link>
                             }
 
