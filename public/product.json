@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Cotton T-Shirt",
-        "image": "https://example.com/images/tshirt-1.jpg",
+        "image": "https://i.ibb.co/jfQmF90/download-4.jpg",
         "variations": [
             {
                 "type": "color",
@@ -26,7 +26,7 @@
     {
         "id": 2,
         "title": "Denim Jeans",
-        "image": "https://example.com/images/jeans-2.jpg",
+        "image": "https://i.ibb.co/sWsv5LT/images.jpg",
         "variations": [
             {
                 "type": "color",
@@ -50,7 +50,7 @@
     {
         "id": 3,
         "title": "Leather Jacket",
-        "image": "https://example.com/images/jacket-3.jpg",
+        "image": "https://i.ibb.co/QHFNDS3/download-2.jpg",
         "variations": [
             {
                 "type": "color",
@@ -72,7 +72,7 @@
     {
         "id": 4,
         "title": "Running Shoes",
-        "image": "https://example.com/images/shoes-4.jpg",
+        "image": "https://i.ibb.co/F36BvRF/download-3.jpg",
         "variations": [
             {
                 "type": "color",
@@ -89,6 +89,124 @@
                     "8",
                     "9",
                     "10"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Cotton T-Shirt",
+        "image": "https://i.ibb.co/jfQmF90/download-4.jpg",
+        "variations": [
+            {
+                "type": "color",
+                "options": [
+                    "White",
+                    "Black",
+                    "Blue"
+                ]
+            },
+            {
+                "type": "size",
+                "options": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Denim Jeans",
+        "image": "https://i.ibb.co/r2nWTqX/download-5.jpg",
+        "variations": [
+            {
+                "type": "color",
+                "options": [
+                    "Light Blue",
+                    "Dark Blue",
+                    "Black"
+                ]
+            },
+            {
+                "type": "size",
+                "options": [
+                    "28",
+                    "30",
+                    "32",
+                    "34"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Leather Jacket",
+        "image": "https://i.ibb.co/QHFNDS3/download-2.jpg",
+        "variations": [
+            {
+                "type": "color",
+                "options": [
+                    "Black",
+                    "Brown"
+                ]
+            },
+            {
+                "type": "size",
+                "options": [
+                    "S",
+                    "M",
+                    "L"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Running Shoes",
+        "image": "https://i.ibb.co/F36BvRF/download-3.jpg",
+        "variations": [
+            {
+                "type": "color",
+                "options": [
+                    "Gray",
+                    "Red",
+                    "Blue"
+                ]
+            },
+            {
+                "type": "size",
+                "options": [
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Denim Jeans",
+        "image": "https://i.ibb.co/r2nWTqX/download-5.jpg",
+        "variations": [
+            {
+                "type": "color",
+                "options": [
+                    "Light Blue",
+                    "Dark Blue",
+                    "Black"
+                ]
+            },
+            {
+                "type": "size",
+                "options": [
+                    "28",
+                    "30",
+                    "32",
+                    "34"
                 ]
             }
         ]
