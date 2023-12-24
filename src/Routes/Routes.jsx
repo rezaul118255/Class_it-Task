@@ -32,7 +32,7 @@ const router = createBrowserRouter([
             {
                 path: "/product/:id",
                 element: <ProductDetails />,
-                // loader: ({ params }) => fetch(`http://localhost:5000/product/${params.id}`)
+                // loader: ({ params }) => fetch(`https://classic-it-server-nu.vercel.app/Product/${params.id}`)
             },
         ]
     },

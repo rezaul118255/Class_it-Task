@@ -10,7 +10,7 @@ const ProductDetails = () => {
     useEffect(() => {
         const fetchProductDetails = async () => {
             try {
-                const response = await fetch(`http://localhost:5000/Product/${id}`);
+                const response = await fetch(`https://classic-it-server-nu.vercel.app/Product/${id}`);
                 const data = await response.json();
 
                 // Assuming the API fetches the details of a single product based on its ID

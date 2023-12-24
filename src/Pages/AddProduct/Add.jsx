@@ -20,7 +20,7 @@ const Add = () => {
 
         console.log(booking);
 
-        fetch('http://localhost:5000/Product', {
+        fetch('https://classic-it-server-nu.vercel.app/Product', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
